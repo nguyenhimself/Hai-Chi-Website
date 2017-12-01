@@ -123,6 +123,31 @@ var wc_add_to_cart_params = {"ajax_url":"\/haichi\/wp-admin\/admin-ajax.php","wc
 </head>
 
 <body class="home page-template page-template-page-templates page-template-page-builder page-template-page-templatespage-builder-php page page-id-1537 wpb-js-composer js-comp-ver-5.4.1 vc_responsive">
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '148465285781787',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/vi-VN/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<div class="fb-customerchat"
+ page_id="1652408741467544"
+ ref="<OPTIONAL_WEBHOOK_PARAM>"
+ minimized="<false>">
+</div>
+
 				<div id="loader">
 				<div class="loader-item">
 					<img src="/wp-content/uploads/2017/11/Logo-Hai-Chi-e1511839576877.png" alt="Logo">
